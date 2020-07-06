@@ -6,7 +6,7 @@ on: push
 
 env:
   GITHUB_TOKEN: ${{ secrets.TF_GITHUB_TOKEN }}
-  GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+  GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
 
 jobs:
   terraform:
