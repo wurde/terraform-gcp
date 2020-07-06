@@ -5,7 +5,7 @@ terraform {
 
   # https://www.terraform.io/docs/backends/types/gcs.html
   backend "gcs" {
-    bucket  = "andys-terraform-backend"
-    prefix  = "gcp-storage/terraform.tfstate"
+    bucket = "andys-terraform-backend"
+    prefix = "gcp-storage/terraform.tfstate"
   }
 }
